@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="8"/>
+                <entry key="0" type="xstring" value="CITY"/>
+                <entry key="1" type="xstring" value="STATE"/>
+                <entry key="2" type="xstring" value="LAT"/>
+                <entry key="3" type="xstring" value="LONG"/>
+                <entry key="4" type="xstring" value="IBGE_RES_POP"/>
+                <entry key="5" type="xstring" value="IDHM"/>
+                <entry key="6" type="xstring" value="GDP_CAPITA"/>
+                <entry key="7" type="xstring" value="COMP_TOT"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="73"/>
+                <entry key="0" type="xstring" value="POST_OFFICES"/>
+                <entry key="1" type="xstring" value="WAL-MART"/>
+                <entry key="2" type="xstring" value="MAC"/>
+                <entry key="3" type="xstring" value="UBER"/>
+                <entry key="4" type="xstring" value="Wheeled_tractor"/>
+                <entry key="5" type="xstring" value="Motorcycles"/>
+                <entry key="6" type="xstring" value="Cars"/>
+                <entry key="7" type="xstring" value="Pu_Assets"/>
+                <entry key="8" type="xstring" value="Pr_Assets"/>
+                <entry key="9" type="xstring" value="Pu_Bank"/>
+                <entry key="10" type="xstring" value="Pr_Bank"/>
+                <entry key="11" type="xstring" value="Pu_Agencies"/>
+                <entry key="12" type="xstring" value="Pr_Agencies"/>
+                <entry key="13" type="xstring" value="BEDS"/>
+                <entry key="14" type="xstring" value="HOTELS"/>
+                <entry key="15" type="xstring" value="COMP_U"/>
+                <entry key="16" type="xstring" value="COMP_T"/>
+                <entry key="17" type="xstring" value="COMP_R"/>
+                <entry key="18" type="xstring" value="COMP_S"/>
+                <entry key="19" type="xstring" value="COMP_Q"/>
+                <entry key="20" type="xstring" value="COMP_P"/>
+                <entry key="21" type="xstring" value="COMP_A"/>
+                <entry key="22" type="xstring" value="COMP_B"/>
+                <entry key="23" type="xstring" value="COMP_C"/>
+                <entry key="24" type="xstring" value="MUN_EXPENDIT"/>
+                <entry key="25" type="xstring" value="GVA_MAIN"/>
+                <entry key="26" type="xstring" value="COMP_D"/>
+                <entry key="27" type="xstring" value="COMP_E"/>
+                <entry key="28" type="xstring" value="CAPITAL"/>
+                <entry key="29" type="xstring" value="IBGE_RES_POP_BRAS"/>
+                <entry key="30" type="xstring" value="IBGE_RES_POP_ESTR"/>
+                <entry key="31" type="xstring" value="IBGE_DU"/>
+                <entry key="32" type="xstring" value="IBGE_DU_URBAN"/>
+                <entry key="33" type="xstring" value="IBGE_DU_RURAL"/>
+                <entry key="34" type="xstring" value="IBGE_POP"/>
+                <entry key="35" type="xstring" value="IBGE_1"/>
+                <entry key="36" type="xstring" value="IBGE_1-4"/>
+                <entry key="37" type="xstring" value="IBGE_5-9"/>
+                <entry key="38" type="xstring" value="IBGE_10-14"/>
+                <entry key="39" type="xstring" value="IBGE_15-59"/>
+                <entry key="40" type="xstring" value="IBGE_60+"/>
+                <entry key="41" type="xstring" value="IBGE_PLANTED_AREA"/>
+                <entry key="42" type="xstring" value="IBGE_CROP_PRODUCTION_$"/>
+                <entry key="43" type="xstring" value="IDHM Ranking 2010"/>
+                <entry key="44" type="xstring" value="IDHM_Renda"/>
+                <entry key="45" type="xstring" value="IDHM_Longevidade"/>
+                <entry key="46" type="xstring" value="IDHM_Educacao"/>
+                <entry key="47" type="xstring" value="ALT"/>
+                <entry key="48" type="xstring" value="PAY_TV"/>
+                <entry key="49" type="xstring" value="FIXED_PHONES"/>
+                <entry key="50" type="xstring" value="AREA"/>
+                <entry key="51" type="xstring" value="REGIAO_TUR"/>
+                <entry key="52" type="xstring" value="CATEGORIA_TUR"/>
+                <entry key="53" type="xstring" value="ESTIMATED_POP"/>
+                <entry key="54" type="xstring" value="RURAL_URBAN"/>
+                <entry key="55" type="xstring" value="GVA_AGROPEC"/>
+                <entry key="56" type="xstring" value="GVA_INDUSTRY"/>
+                <entry key="57" type="xstring" value="GVA_SERVICES"/>
+                <entry key="58" type="xstring" value="GVA_PUBLIC"/>
+                <entry key="59" type="xstring" value="GVA_TOTAL"/>
+                <entry key="60" type="xstring" value="TAXES"/>
+                <entry key="61" type="xstring" value="GDP"/>
+                <entry key="62" type="xstring" value="POP_GDP"/>
+                <entry key="63" type="xstring" value="COMP_F"/>
+                <entry key="64" type="xstring" value="COMP_G"/>
+                <entry key="65" type="xstring" value="COMP_H"/>
+                <entry key="66" type="xstring" value="COMP_I"/>
+                <entry key="67" type="xstring" value="COMP_J"/>
+                <entry key="68" type="xstring" value="COMP_K"/>
+                <entry key="69" type="xstring" value="COMP_L"/>
+                <entry key="70" type="xstring" value="COMP_M"/>
+                <entry key="71" type="xstring" value="COMP_N"/>
+                <entry key="72" type="xstring" value="COMP_O"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.12.0.v202606261225"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.12.0.v202606261225"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 391, Cols: 8"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="7111dece-de7c-4eac-bc5d-dd08cc0a3324"/>
+    </config>
+</config>

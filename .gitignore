@@ -1,0 +1,28 @@
+# .env e Firebase
+.env
+*.env
+!.env.example
+backend/firebase-key.json
+*firebase-adminsdk*.json
+
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# Cache das APIs (enviado à parte)
+backend/cache.db
+
+# KNIME
+knime/.metadata/
+knime/Example Workflows/
+knime/**/*.tmp
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Sistema
+.DS_Store
+Thumbs.db
